@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%; 
+}
+#full{
+    background-color: rgb(206, 219, 219);
+    width: 370px;
+    margin-left: 750px;
+    margin-top: 90px;
+    height: 380px;
+  }
+#searcher{
+  width: 180px;
+overflow: hidden;
+border-bottom: 3px solid rgb(134, 136, 138);
+color: rgba(3, 3, 3, 0.959);
+outline: none;
+background: none;
+}
+input{
+  border: none;
+}
+#tempcontent{
+    text-align: right;
+    font-size: x-large;
+    margin-top: -85px;
+    color: rgb(229, 229, 229);
+}
+#climate{
+    text-align: right;
+    font-size: medium;
+    margin-top: 15px;
+    color: rgb(12, 16, 15);
+  }
+  #date{
+    text-align: right;
+    font-size: medium;
+    margin-top: 15px;
+    color: rgb(18, 18, 16);
+  }
+  #btn:hover{
+    background-color: rgb(49, 161, 66);
+    
+} 
+#image{
+  width: 100px;
+  margin-top: 51px;
+  margin-left: 26px;
+}
+#tempvalue{
+  font-size: xx-large;
+  
+}
