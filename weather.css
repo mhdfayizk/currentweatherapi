@@ -4,8 +4,9 @@
     padding: 0;
 }
 body{
-    height: 100%;
-    width: 100%; 
+  background-image: url("./image/5.jpg");
+    /* height: 100%;
+    width: 100%;  */
 }
 #full{
     background-color: rgb(206, 219, 219);
@@ -26,19 +27,16 @@ input{
   border: none;
 }
 #tempcontent{
-    text-align: right;
+    
     font-size: x-large;
-    margin-top: -85px;
     color: rgb(229, 229, 229);
 }
 #climate{
-    text-align: right;
     font-size: medium;
     margin-top: 15px;
     color: rgb(12, 16, 15);
   }
   #date{
-    text-align: right;
     font-size: medium;
     margin-top: 15px;
     color: rgb(18, 18, 16);
@@ -55,4 +53,9 @@ input{
 #tempvalue{
   font-size: xx-large;
   
+}
+@media screen and (min-width: 400px) {
+  body {
+    text-align: center;
+  }
 }
